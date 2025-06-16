@@ -23,7 +23,7 @@ BigQuery를 사용해 데이터를 처리하고, Python과 Jupyter 노트북을 
 ## 사용 기술
 
 - Google BigQuery
-- Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+- Python (Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn)
 - Jupyter Notebook (ipynb)
 - VS Code
 - Git/GitHub
