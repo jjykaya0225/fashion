@@ -6,8 +6,6 @@ BigQuery를 사용해 데이터를 처리하고, Python과 Jupyter 노트북을 
 
 ## 프로젝트 구조
 .
-├── configs/
-│   └── config.yaml          # 설정 파일 (예: BigQuery 프로젝트, 데이터셋 정보)
 ├── notebooks/
 │   ├── 01_EDA.ipynb         # 탐색적 데이터 분석
 │   ├── clustering.ipynb     # 고객 군집화 분석
@@ -40,7 +38,5 @@ BigQuery를 사용해 데이터를 처리하고, Python과 Jupyter 노트북을 
    ```bash
    pip install -r requirements.txt
    ```
-2. `config.yaml` 파일에서 BigQuery 프로젝트 및 데이터셋 정보를 설정합니다.  
-3. `notebooks/` 폴더 내 Jupyter 노트북을 열어 분석을 수행합니다.  
-4. `src/` 폴더의 SQL 쿼리 파일과 Python 코드로 데이터 로딩 및 처리를 진행할 수 있습니다.
-
+2. `notebooks/` 폴더 내 Jupyter 노트북을 열어 분석을 수행합니다.  
+3. `src/` 폴더의 SQL 쿼리 파일과 Python 코드로 데이터 로딩 및 처리를 진행할 수 있습니다.
